@@ -1,0 +1,447 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0;
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+header
+{
+	background-image: url(img/header.jpg); 
+}
+.header_color
+{
+	background-color: rgba(198, 108, 73, 0.3);
+}
+nav
+{
+	width: 1110px;
+	max-width: 100%;
+	margin: auto;
+	padding-top: 95px;
+	display: flex;
+	justify-content: space-between;
+}
+.logo 
+{
+	width: 120px;
+	font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+header ul
+{
+	width: 530px;
+	max-width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+header ul .home
+{
+	font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.header_title
+{
+	width: 1110px;
+	max-width: 100%;
+	margin: auto;
+	padding-top: 145px;
+	font-weight: normal;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+}
+.header_subtitle {
+	width: 1110px;
+	max-width: 100%;
+	margin: auto;
+	padding-top: 25px;
+	font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.header_subtitle-2 {
+	width: 1110px;
+	max-width: 100%;
+	margin: auto;
+	padding: 105px 0 240px;
+	font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+article
+{
+	width: 1110px;
+	max-width: 100%;
+	margin: auto;
+	margin-top: 95px;
+	font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+}
+h2
+{
+	padding-bottom: 25px;
+	font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.section-1 {
+	margin-top: 125px;
+	background: #FFFAF2;
+}
+.section-1 h2
+{
+	width: 1110px;
+	max-width: 100%;
+	margin: auto;
+	padding: 85px 0;
+
+}
+.section-1_body {
+	width: 1110px;
+	max-width: 100%;
+	margin: auto;
+	padding-bottom: 145px;
+	display: flex;
+	justify-content: space-between;
+	font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+}
+.section-1_img 
+{
+	width: 350px;
+	max-width: 100%;
+	
+}
+.section_1_charts 
+{
+	width: 635px;
+	max-width: 100%;
+}
+.charts_line-1, .charts_line-2, .charts_line-3 , .charts_line-4, .charts_line-5, .charts_line-6, .charts_line-7  {
+	display: flex;
+	justify-content: space-between;
+}
+.charts_line-1
+{
+	width: 505px;
+	max-width: 100%;
+	padding-bottom: 70px;
+}
+.charts_second_name 
+{
+	font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+}
+.charts_line-2, .charts_line-3 , .charts_line-4, .charts_line-5, .charts_line-6
+{
+	padding-bottom: 20px;
+}
+.scale_body {
+	width: 445px;
+	max-width: 100%;
+	background: #F5D6AB;
+}
+.scale-1 
+{
+	width: 380px;
+	max-width: 100%;
+	height: 25px;
+	background: #C66C49;
+}
+.charts_line-3 
+{
+	width: 365px;
+	max-width: 100%;
+}
+.scale-2 
+{
+	width: 350px;
+	max-width: 100%;
+	height: 25px;
+	background: #C66C49;
+}
+.charts_line-5, .charts_line-7
+{
+	width: 465px;
+	max-width: 100%;
+}
+.scale-3 
+{
+	width: 285px;
+	height: 25px;
+	background: #C66C49;
+}
+.section_2 
+{
+	width: 1110px;
+	max-width: 100%;;
+	margin: auto;
+	padding-top: 85px;
+}
+.section_2 h2 
+{
+	font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    padding-bottom: 95px;
+}
+.section_2 h3 
+{
+	font-weight: 600;
+	max-width: 100%;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+    padding-bottom: 50px;
+}
+.section-1_body 
+{
+	display: flex;
+	justify-content: space-between;
+}
+.slider_text 
+{
+	width: 350px;
+	max-width: 100%;
+	font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+}
+.section-2_text 
+{
+	font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+    padding-bottom: 235px;
+    max-width: 100%;
+}
+.section-2_icons 
+{
+	width: 50px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 20px;
+}
+.slider_images 
+{
+	width: 635px;
+	max-width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-2_img-1, .section-2_img-3 
+{
+	padding-bottom: 25px;
+}
+footer
+{
+	background: #FFFAF2;
+}
+.footer_body
+{
+	width: 1110px;
+	max-width: 100%;
+	margin: auto;
+	font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    padding-top: 95px;
+}
+footer h2
+{
+	padding-bottom: 50px;
+	font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+.footer_menu
+{
+	width: 930px;
+	max-width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 175px;
+}
+footer ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+footer li
+{
+	padding-bottom: 15px;
+
+}
+
+.arrow_up
+{
+	position: relative;
+}
+
+.ar_up
+{
+	position: absolute;
+	top: 250px;
+}
+
+@media only screen and (max-width: 400px){
+.section-1_body
+{
+	flex-wrap: wrap;
+	font-size: 12px;
+	padding-bottom: 25px;
+}
+.scale_body
+{
+	width: 210px;
+}
+.scale-1{
+	width: 135px;
+}
+.scale-2{
+	width: 165px;
+}
+.scale-3{
+	width: 180px;
+}
+.slider_images{
+	width: 83%;
+	margin: auto;
+}
+.slider_images_col-1{
+	width: 170px;
+}
+.slider_images_col-2{
+	width: 125px;
+}
+.s-2-img{
+	width: 100%;
+}
+.section-2_img-1, .section-2_img-3{
+	padding-bottom: 15px;
+}
+header ul{
+	display: none;
+}
+header{
+	background: url(img/bg-smart.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.logo
+{
+	width: 90px;
+	margin: auto;
+	font-size: 24px;
+}
+.header_title
+{
+	width: 220px;
+	margin: auto;
+	font-size: 20px;
+	padding-top: 50px;
+}
+.header_subtitle
+{
+	width: 185px;
+	margin: auto;
+	font-size: 13px;
+}
+.header_subtitle-2
+{
+	width: 80px;
+	margin: auto;
+	font-size: 13px;
+	padding: 40px 0 50px;
+}
+nav{
+	padding-top: 25px;
+}
+article
+{
+	margin: auto;
+	font-size: 12px;
+	line-height: 15px;
+	margin-top: 25px;
+	width: 84%;
+}
+h2
+{
+	width: 75px;
+	margin: auto;
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+.section-1{
+	margin-top: 10px;
+}
+.section-1 h2
+{
+	width: 65px;
+	margin: auto;
+	font-size: 24px;
+	padding: 25px 0;
+}
+.section-1_img
+{
+	width: 60%;
+	margin: auto;
+	padding-bottom: 25px;
+}
+.afro
+{
+	width: 100%;
+}
+.section_1_charts{
+	width: 83%;
+	margin: auto;
+}
+.charts_line-1{
+	padding-bottom: 30px;
+}
+.charts_second_name
+{
+	font-size: 12px;
+}
+.section_2
+{
+	padding-top: 25px;
+}
+
+}
